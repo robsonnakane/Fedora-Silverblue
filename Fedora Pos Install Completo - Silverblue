@@ -14,12 +14,13 @@ rpm-ostree upgrade;
 
 ##Instalação dos programas Flatpack##
 #flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo;flatpak install flathub com.spotify.Client -y;flatpak install flathub org.videolan.VLC -y;flatpak install flathub com.valvesoftware.Steam -y;flatpak install flathub us.zoom.Zoom -y;flatpak install flathub org.kde.kdenlive -y;flatpak install flathub org.onlyoffice.desktopeditors -y;flatpak install flathub com.skype.Client -y;flatpak install flathub com.adobe.Flash-Player-Projector -y;flatpak install flathub com.slack.Slack -y;flatpak install flathub org.gnome.Extensions -y;flatpak install flathub org.gnome.Boxes -y;flatpak install flathub org.qbittorrent.qBittorrent -y;flatpak install flathub org.mypaint.MyPaint -y;flatpak install flathub org.mozilla.Thunderbird -y;flatpak install flathub com.jetbrains.PyCharm-Community -y;flatpak install flathub org.chromium.Chromium -y;flatpak install flathub io.github.shiftey.Desktop -y;
-flatpak update -y;
+#flatpak update -y;
 
 ##Atualização de versão##
 ##Pesquisar a versão disponível##
 #ostree remote refs fedora;
 ###(Exemplo!)
 #rpm-ostree rebase fedora:fedora/35/x86_64/silverblue;
+#rpm-ostree rebase fedora:fedora/rawhide/x86_64/silverblue
 
 systemctl reboot

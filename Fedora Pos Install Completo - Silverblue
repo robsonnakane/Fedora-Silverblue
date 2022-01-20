@@ -33,5 +33,6 @@ flatpak update -y;
 #ostree remote refs fedora;
 ###(Exemplo!)
 #rpm-ostree rebase fedora:fedora/35/x86_64/silverblue;
+#rpm-ostree rebase fedora:fedora/rawhide/ppc64le/silverblue;
 
 systemctl reboot

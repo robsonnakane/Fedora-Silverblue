@@ -6,12 +6,19 @@
 rpm-ostree upgrade;
 
 ##Instalação do toolbox e programas##
+<<<<<<< Updated upstream
 #rpm-ostree install toolbox
 
 ##Dentro do Toolbox##
 #toolbox create
 #toolbox enter
 #sudo dnf install idle3 -y; sudo dnf install lshw-gui -y;sudo dnf install rstudio-desktop -y; sudo dnf install elementary-code -y;
+=======
+#rpm-ostree install toolbox;
+##toolbox create
+##toolbox enter
+##sudo dnf install idle3 -y; sudo dnf install lshw-gui -y;sudo dnf install rstudio-desktop -y; sudo dnf install elementary-code -y;
+>>>>>>> Stashed changes
 
 ###Abertura dos programas pelo terminal###
 #elementary-code: $ io.elementary.code

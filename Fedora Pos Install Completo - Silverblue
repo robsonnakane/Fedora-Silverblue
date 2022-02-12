@@ -11,7 +11,7 @@ rpm-ostree upgrade;
 ##Dentro do Toolbox##
 #toolbox create
 #toolbox enter
-#sudo dnf install idle3 -y; sudo dnf install lshw-gui -y;sudo dnf install rstudio-desktop -y; sudo dnf install elementary-code -y;sudo dnf install gnome-tweaks -y;
+#sudo dnf install idle3 -y; sudo dnf install lshw-gui -y;sudo dnf install rstudio-desktop -y; sudo dnf install elementary-code -y;sudo dnf install gnome-tweaks -y;sudo dnf install java-latest-openjdk -y;
 
 ###Abertura dos programas pelo terminal###
 #elementary-code: $ io.elementary.code

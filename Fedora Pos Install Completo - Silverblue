@@ -3,7 +3,7 @@
 ###Fedora Silverblue###
 ##Atualização completa do sistema##
 ##!!!!!Desligar a atualização automática e as notificações!!!!##
-rpm-ostree upgrade;
+rpm-ostree cancel;rpm-ostree upgrade;
 
 ##Instalação do toolbox e programas##
 #rpm-ostree install toolbox

@@ -1,9 +1,20 @@
 #!/bin/bash
 
 ###Fedora Silverblue###
-##Atualização completa do sistema##
-##!!!!!Desligar a atualização automática e as notificações!!!!##
-rpm-ostree cancel;rpm-ostree refresh-md;rpm-ostree upgrade;
+###Atualização completa do sistema###
+
+##Execução do arquivo de atualização no terminal##
+#/var/home/robsonnakane/Documentos/'Atualização Silverblue.sh'#
+
+#Edição do arquivo no terminal#
+#nano /var/home/robsonnakane/Documentos/'Atualização Silverblue.sh'#
+
+##Cancela a atualização automática dos repositórios##
+rpm-ostree cancel;
+##Atualizção dos repositórios##
+rpm-ostree refresh-md;
+##Atualização do sistema##
+rpm-ostree upgrade;
 
 
 ##Instalação do toolbox e programas##

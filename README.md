@@ -10,4 +10,7 @@ Há também o último comentário / comando o qual realiza a atualização de ve
 
 Salve este script em um arquivo com a extensão .sh, vá em propriedades / permissões / selecione a opção "Permitir execução do arquivo como um programa".
 
-Para executar, clique com o botão direito do mouse que haverá a opção de "Executar como programa". Automaticamente irá abrir o Terminal, solicitará a senha de adm e executará os comandos que não houver com 1 #.
+Para executar (Graficamente), clique com o botão direito do mouse que haverá a opção de "Executar como programa". Automaticamente irá abrir o Terminal, solicitará a senha de adm e executará os comandos que não houver com 1 #.
+
+Para executar ( Terminal ) /var/usuário/nome da pasta/'Atualização Silverblue.sh'
+Para edição do arquivo ( Terminal ) nano /var/usuário/nome da pasta/'Atualização Silverblue.sh'

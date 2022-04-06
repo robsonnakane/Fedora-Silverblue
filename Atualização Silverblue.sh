@@ -39,7 +39,7 @@ flatpak update -y;
 ##Pesquisar a versão disponível##
 #ostree remote refs fedora;
 ###(Exemplo!)
-#rpm-ostree rebase fedora:fedora/37/x86_64/testing/silverblue;
+#rpm-ostree rebase fedora:fedora/35/x86_64/silverblue;
 
 ##Reboot para rpm-ostree rebase##
 #sudo rpm-ostree rebase -r

@@ -13,6 +13,9 @@
 rpm-ostree cancel;
 ##Atualizção dos repositórios##
 rpm-ostree refresh-md;
+##Conferência dos pacotes##
+rpm-ostree upgrade --check;
+rpm-ostree upgrade --preview;
 ##Atualização do sistema##
 rpm-ostree upgrade;
 

@@ -13,6 +13,12 @@
 rpm-ostree cancel;
 ##Atualizção dos repositórios##
 rpm-ostree refresh-md;
+##Limpeza cache##
+rpm-ostree cleanup -m;
+rpm-ostree cleanup -r;
+rpm-ostree cleanup -p;
+rpm-ostree cleanup -b;
+rpm-ostree override reset libdnf;
 ##Conferência dos pacotes##
 rpm-ostree upgrade --check;
 rpm-ostree upgrade --preview;
@@ -42,16 +48,10 @@ flatpak update -y;
 ##Pesquisar a versão disponível##
 #ostree remote refs fedora;
 ###(Exemplo!)
-#rpm-ostree rebase fedora:fedora/35/x86_64/silverblue;
+#rpm-ostree rebase fedora:fedora/37/x86_64/silverblue;
 
 ##Reboot para rpm-ostree rebase##
 #sudo rpm-ostree rebase -r
-
-##Limpeza cache##
-rpm-ostree cleanup -m;
-rpm-ostree cleanup -r;
-rpm-ostree cleanup -p;
-rpm-ostree cleanup -b;
 
 ##Reinicialização do sistema
 systemctl reboot

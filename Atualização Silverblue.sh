@@ -22,6 +22,7 @@ rpm-ostree override reset libdnf;
 ##Conferência dos pacotes##
 rpm-ostree upgrade --check;
 rpm-ostree upgrade --preview;
+rpm-ostree override reset --all;
 ##Atualização do sistema##
 rpm-ostree upgrade;
 
